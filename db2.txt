@@ -1,0 +1,45 @@
+
+// Create database
+$sql = "CREATE table slots" (	
+id INT(6) UNSIGNED  AUTO_INCREMENT PRIMARY KEY,
+open varchar(10) NOT NULL,
+booked varchar(10) NOT NULL,
+faculty varchar(10) NOT NULL
+)";
+
+
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'yes', 'no', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'yes', 'no', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'yes', 'no', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'yes', 'no', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'yes', 'no', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'yes', 'no', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'yes', 'no', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'yes')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'yes')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'yes', 'no', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'yes', 'no', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'yes', 'no', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'yes')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'yes')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'yes', 'no', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'no', 'yes', 'no')
+INSERT INTO `slots` (`id`, `open`, `booked`, `faculty`) VALUES (NULL, 'yes', 'no', 'no')

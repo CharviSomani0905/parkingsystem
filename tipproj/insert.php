@@ -1,0 +1,31 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname="parking";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password,$dbname);
+// Check connection
+	
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+else{
+	echo "Connected";
+}
+
+$s = $_GET["slot"];
+	
+$stmt = $conn->prepare("UPDATE slots SET booked='yes', open='no'  WHERE id=?");
+$stmt->bind_param("s", $s);
+
+if ($stmt->execute()===TRUE)
+{
+	echo "executed";
+}
+
+header('Location: available.php');
+
+
+?>
